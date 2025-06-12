@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Welcome to ProAudit</h1>
+<img class="hero" src="{{ url_for('static', filename='images/accounting.jpg') }}" alt="Accounting Image">
+<p>
+    <strong>ProAudit</strong> offers professional accounting and auditing services for businesses and individuals. Our experienced team ensures your finances are accurate, compliant, and optimized for growth.
+</p>
+<ul>
+    <li>Certified Public Accountants (CPAs) & Chartered Accountants</li>
+    <li>Custom solutions for businesses of all sizes</li>
+    <li>Trusted by clients since 2010</li>
+</ul>
+<p>
+    <a href="{{ url_for('services') }}"><button>Our Services</button></a>
+    <a href="{{ url_for('contact') }}"><button>Contact Us</button></a>
+</p>
+{% endblock %}
