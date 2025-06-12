@@ -6,8 +6,8 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with a secure key
 
 # Replace with your actual Telegram Bot Token and Chat ID
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID'
+TELEGRAM_TOKEN = '7636733588:AAGU_qoIiZRw0GhHYIWv4bBUCG2Tz6Lgai0'
+TELEGRAM_CHAT_ID = '6737975113'
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 @app.route('/')
